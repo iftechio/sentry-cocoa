@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
         "Sources/SentryCrash/**/*.{h,hpp,m,mm,c,cpp}"
         
       sp.public_header_files =
-        "Sources/Sentry/Public/*.h"
+        "Sources/Sentry/Public/*.h", "Sources/SentryCrash/**/*.h"
       
   end
 end
