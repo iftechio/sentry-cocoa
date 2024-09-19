@@ -518,7 +518,7 @@ addContextualInfoToEvent(struct SentryCrash_MonitorContext *eventContext)
 #endif
 
 SentryCrashMonitorAPI *
-sentrycrashcm_machexception_getAPI()
+sentrycrashcm_machexception_getAPI(void)
 {
     static SentryCrashMonitorAPI api = {
 #if SentryCrashCRASH_HAS_MACH

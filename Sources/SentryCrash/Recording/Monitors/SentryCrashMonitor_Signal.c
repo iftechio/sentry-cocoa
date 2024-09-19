@@ -247,7 +247,7 @@ addContextualInfoToEvent(struct SentryCrash_MonitorContext *eventContext)
 #endif
 
 SentryCrashMonitorAPI *
-sentrycrashcm_signal_getAPI()
+sentrycrashcm_signal_getAPI(void)
 {
     static SentryCrashMonitorAPI api = {
 #if SentryCrashCRASH_HAS_SIGNAL
